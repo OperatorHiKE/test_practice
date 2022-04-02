@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-public class Main {
+public class Task1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int result = scanner.nextInt();
-        int[] numbers = new int[result];
+        int numbers_size = scanner.nextInt();
+        int[] numbers = new int[numbers_size];
 
-        for (int i = 0; i < result; i++) {
+        for (int i = 0; i < numbers_size; i++) {
             numbers[i] = scanner.nextInt();
         }
 
